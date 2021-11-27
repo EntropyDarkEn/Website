@@ -8,9 +8,15 @@
 </head>
     
 <body>
-    <h1>Oberlin Chess Club</h1>
+    <header>
+        <h1>Oberlin Chess Club</h1>
+    </header>
     <hr>
-    <p>Date, Time, Location</p>
+    <section>
+        <h3>Date, Time, Location</h3>
+        <p>The Club meets in Wilder 315 on...</p>    
+    </section>
+    
     <P>Check out the Club <a href="https://www.instagram.com/oberlin_chess_club/" target="_blank">instagram</a></P>
     <p>Check out the club <a href="https://www.facebook.com/OberlinCollegeChessClub/">facebook</a></p>
     <p>Join the Club <a href="https://discord.gg/MXr7naWnr9" target="_blank">Discord</a></P>
@@ -18,13 +24,26 @@
     <p>Join the email list</p>
     <form action="the specific page that the form is submitted to" method="post">
         <div>   
-            <label>full name</label>
-            <input type="text" name="variable-name"> 
+            <label>Full Name</label>
+            <input type="text" name="variable-name" 
+            placeholder="Enter Full Name">
         </div> 
+        <div>
+            <label>Graduation Year</label>
+            <input type="number" name="graduation-year" value="2021">
+
+        </div>
         <div>   
-            <label>email</label> 
-            <input type="text" name="email">
+            <label>Email</label> 
+            <input type="email" name="email"
+            placeholder="Enter Email">
         </div>    
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    
+    <footer>
+        <p>Copyright &copy; 2021, Obelrin Chess Club </p>
+    </footer>
     </form>
 
 
