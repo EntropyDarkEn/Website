@@ -20,5 +20,6 @@ body{
 }
 .box-1{
     background-color:crimson;
+    border-left: 5px yellow solid;
     
 }
