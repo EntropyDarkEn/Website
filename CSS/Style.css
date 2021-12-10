@@ -1,26 +1,29 @@
 #main-header{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px;
     
 }
 #main-footer{
+    color: rgb(0, 0, 0);
     text-align:center;
     font-size: 13px;
 }
-body{
-    background-color: #f4f4f4;
+#main-body{
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6em;
 }
 .container{
+    color: rgb(0, 0, 0);
     width: 80%;
     margin: auto;
 }
 .box-1{
-    background-color:crimson;
-    border-left: 5px yellow solid;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-left: 5px rgb(219, 188, 13) solid;
     padding-left: 3px;
     
 }
