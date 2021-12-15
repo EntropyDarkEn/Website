@@ -17,13 +17,19 @@
 }
 .container{
     color: rgb(0, 0, 0);
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
+.container-center{
+    justify-content: center;
+    columns: 2;
+    column-gap: 2%;
+}
 .box-1{
+    text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     border-left: 5px rgb(219, 188, 13) solid;
-    padding-left: 3px;
+    padding: 5px;
     
 }
