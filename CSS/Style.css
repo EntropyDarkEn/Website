@@ -11,7 +11,7 @@
     font-size: 13px;
 }
 #main-body{
-    background-color: white;
+    background-color:#C41E3A;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6em;
 }
@@ -29,7 +29,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
-    border-left: 5px rgb(219, 188, 13) solid;
+    border-left: 5px #FFBA00 solid;
     padding: 5px;
     
 }
