@@ -31,5 +31,18 @@
     background-color:rgb(0, 0, 0);
     border-left: 5px #FFBA00 solid;
     padding: 5px;
-    
+    border-radius: 15px;
 }
+.catagories{
+    border: 1px #ccc solid; 
+    padding: 10px;
+}
+.catagories h3{
+    text-align: center;
+}
+.catagories li{
+    padding: 0%;
+    list-style: none;
+
+}
+
