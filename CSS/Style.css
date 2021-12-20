@@ -33,6 +33,10 @@
     padding: 5px;
     border-radius: 15px;
 }
+.box-1 a{
+    list-style: none;
+    color: #FFBA00;
+}
 .catagories{
     border: 1px #ccc solid; 
     padding: 10px;
