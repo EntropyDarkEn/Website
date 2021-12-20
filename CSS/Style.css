@@ -37,16 +37,17 @@
     list-style: none;
     color: #FFBA00;
 }
-.catagories{
-    border: 1px #ccc solid; 
+.navbar{
+    border: 2px #ccc solid; 
     padding: 10px;
 }
-.catagories h3{
-    text-align: center;
-}
-.catagories li{
+.navbar li{
     padding: 0%;
     list-style: none;
     color: #FFBA00;
+    display: inline;    
+}
+.navbar a{
+    padding-right: 15px;
 }
 
