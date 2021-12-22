@@ -11,7 +11,6 @@ image{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
-    
 }
 #main-footer{
     color: #FFBA00;
@@ -35,8 +34,6 @@ image{
     display: flex;
     align-items:flex-start;
     flex-direction: column;
-    
-
 }
 .box-1{
     flex: 1;
@@ -109,6 +106,9 @@ image{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
 #showcase{
     background-image: url('../images/Campus.jpg');
