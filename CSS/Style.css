@@ -23,7 +23,7 @@ image{
     line-height: 1.6em;
 }
 .container{
-    color: rgb(0, 0, 0);
+    color: white;
     width: 75%;
     margin: auto;
     overflow: hidden;
