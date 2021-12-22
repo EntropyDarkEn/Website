@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+image{
+    width: 100%;
+}
 #main-header{
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -21,16 +29,21 @@
     margin: auto;
     overflow: hidden;
 }
-.container-center{
-    justify-content: center;
-    columns: 2;
-    column-gap: 2%;
+.container-colum{
+    width: 30%;
+    float: right;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+
 }
 .box-1{
+    flex: 1;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
-    border-left: 5px #FFBA00 solid;
+    border-right: 5px #FFBA00 solid;
     padding: 5px;
     border-radius: 15px;
 }
@@ -38,9 +51,49 @@
     list-style: none;
     color: #FFBA00;
 }
+.box-2{
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-right: 5px #FFBA00 solid;
+    padding: 5px;
+    border-radius: 15px;
+}
+.box-2 a{
+    list-style: none;
+    color: #FFBA00;
+}
+.box-3{
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-right: 5px #FFBA00 solid;
+    padding: 5px;
+    border-radius: 15px;
+}
+.box-3 a{
+    list-style: none;
+    color: #FFBA00;
+}
+.box-4{
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-right: 5px #FFBA00 solid;
+    padding: 5px;
+    border-radius: 15px;
+}
+.box-4 a{
+    list-style: none;
+    color: #FFBA00;
+}
 .navbar{
     border: 2px #ccc solid; 
     padding: 10px;
+    height: 45px;
 }
 .navbar li{
     padding: 0%;
@@ -51,6 +104,11 @@
 .navbar a{
     padding-right: 15px;
     font-size: 18px;
+}
+.navcontainer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 #showcase{
     background-image: url('../images/Campus.jpg');
