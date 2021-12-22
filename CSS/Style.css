@@ -92,15 +92,21 @@ image{
     padding: 10px;
     height: 45px;
 }
-.navbar li{
-    padding: 0%;
-    list-style: none;
-    color: #FFBA00;
-    display: inline;    
+.navbar ul{
+    list-style-type: none;
+    display: flex;
 }
 .navbar a{
-    padding-right: 15px;
+    text-decoration: none;
+    color: #FFBA00;    
+}
+.navbar a{
+    padding: 5px;
+    margin: 0 10px;
     font-size: 18px;
+}
+.navbar a:hover {
+    border-bottom: 2px #FFBA00 solid;
 }
 .navcontainer{
     max-width: 1100px;
@@ -119,9 +125,20 @@ image{
 }
 #showcase h1{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.6em;
     padding-top: 40px;
 }
-
+#showcase h2{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+#showcase h3{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
 
