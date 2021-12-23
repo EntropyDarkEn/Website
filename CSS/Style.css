@@ -37,6 +37,12 @@ image{
     border: 1px white solid;
     border-radius: 5px;
 }
+.topText {
+    animation: slideInfromBottom 1s ease-in;
+}
+#showcasetext {
+    animation: slideInfromLeft 1s ease-in;
+}
 .topText:hover a{
     transform: scale(.98);
 }
@@ -131,9 +137,10 @@ image{
 #showcase{
     background-image: url('../images/Campus.jpg');
     background-position: center;
-    min-height: 300px;
+    min-height: 250px;
     margin-bottom: 30px;
     text-align: center;
+    position: relative;
 }
 #showcase h1{
     color: #ffffff;
@@ -153,4 +160,37 @@ image{
     line-height: 1.6em;
     padding-top: 10px;
 }
+@keyframes slideInfromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInfromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInfromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInfromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 
