@@ -28,6 +28,15 @@ image{
     margin: auto;
     overflow: hidden;
 }
+.topText a{
+    display: inline-block;
+    padding: 8px 24px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
 .container-colum{
     width: 30%;
     float: right;
