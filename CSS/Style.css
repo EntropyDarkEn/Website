@@ -47,67 +47,67 @@ image{
 .topText:hover a{
     transform: scale(.98);
 }
-.container-colum{
-    width: 30%;
-    float: right;
-    display: flex;
-    align-items:flex-start;
-    flex-direction: column;
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
 }
 .box-1{
-    flex: 1;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     border-right: 5px #FFBA00 solid;
     padding: 5px;
     border-radius: 15px;
+    align-self: flex-start;
 }
 .box-1 a{
     list-style: none;
     color: #FFBA00;
 }
 .box-2{
-    flex: 1;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     border-right: 5px #FFBA00 solid;
     padding: 5px;
     border-radius: 15px;
+    align-self: flex-start;
 }
 .box-2 a{
     list-style: none;
     color: #FFBA00;
 }
 .box-3{
-    flex: 1;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     border-right: 5px #FFBA00 solid;
     padding: 5px;
     border-radius: 15px;
+    align-self: flex-start;
 }
 .box-3 a{
     list-style: none;
     color: #FFBA00;
 }
 .box-4{
-    flex: 1;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     border-right: 5px #FFBA00 solid;
     padding: 5px;
     border-radius: 15px;
+    align-self: flex-start;
 }
 .box-4 a{
     list-style: none;
     color: #FFBA00;
 }
 .navbar{
-    border: 2px #ccc solid; 
+    border-top: 2px #FFBA00 solid;
+    border-bottom: 2px #FFBA00 solid;
     padding: 10px;
     height: 45px;
 }
@@ -135,6 +135,32 @@ image{
     justify-content: center;
     height: 100%;
 }
+.bottomnavbar{
+    border-bottom: 2px #FFBA00 solid;
+    padding: 10px;
+    height: 45px;
+}
+.bottomnavbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.bottomnavbar a{
+    text-decoration: none;
+    color: #FFBA00;    
+}
+.bottomnavbar a{
+    padding: 5px;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.bottomnavcontainer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
 #showcase{
     background-image: url('../images/Campus.jpg');
     background-position: center;
@@ -142,22 +168,26 @@ image{
     margin-bottom: 30px;
     text-align: center;
     position: relative;
+    border-bottom: 1px #FFBA00 solid;
 }
 #showcase h1{
     color: #ffffff;
     font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
     line-height: 1.6em;
     padding-top: 40px;
 }
 #showcase h2{
     color: #ffffff;
     font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
     line-height: 1.6em;
     padding-top: 10px;
 }
 #showcase h3{
     color: #ffffff;
     font-size: 20px;
+    text-shadow: -1px 1px 0 #FFBA00;
     line-height: 1.6em;
     padding-top: 10px;
 }
