@@ -38,6 +38,16 @@ image{
     border: 1px white solid;
     border-radius: 5px;
 }
+.nested {
+    display: grid;
+    grid-gap: 2.5em;
+
+}
+.nested > div{
+    border-left: #ffffff 2px double;
+    padding-left: 6px;
+
+}
 .topText {
     animation: slideInfromBottom 1s ease-in;
 }
