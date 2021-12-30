@@ -6,23 +6,152 @@
 image{
     width: 100%;
 }
+
+     /* Logo */
 #main-header{
     text-align: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
 }
+
+     /* Top Navigation Bar */
+.navbar{
+    border-top: 2px #FFBA00 solid;
+    border-bottom: 2px #FFBA00 solid;
+    padding: 10px;
+    height: 45px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color: #FFBA00;    
+}
+.navbar a{
+    padding: 5px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.navbar a:hover {
+    border-bottom: 2px #FFBA00 solid;
+}
+.navcontainer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+     /* Showcase */
+#showcase{
+    background-image: url('../images/Campus.jpg');
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px #FFBA00 solid;
+}
+#showcase h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 40px;
+}
+#showcase h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+#showcase h3{
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: -1px 1px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 10px
+}
+#showcasetext {
+    animation: slideInfromLeft 1s ease-in;
+}
+#showcase-history {
+    background-image: url('../images/oldwilder.jpg');
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px #FFBA00 solid;
+}
+#showcase-history h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 35px;
+}
+#showcase-practice {
+    background-image: url('../images/Boards.jpg');
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px #FFBA00 solid;
+}
+#showcase-practice h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 40px;
+}
+#showcase-events{
+    background-image: url('../images/dgtboards.jpg');
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px #FFBA00 solid;
+}
+#showcase-events h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+     /*Backround of body*/
 #main-body{
     background-color:#C41E3A;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6em;
 }
+
+
+     /*???*/
 .container{
     color: white;
     width: 75%;
     margin: auto;
     overflow: hidden;
 }
+
+
 .topText a{
     text-decoration: none;
     display: inline-block;
@@ -33,6 +162,23 @@ image{
     border: 1px white solid;
     border-radius: 5px;
 }
+
+.topText {
+    animation: slideInfromBottom 1s ease-in;
+}
+.topText:hover a{
+    transform: scale(.98);
+}
+
+     /*Wrapper around topText and Boxes*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+     /*text in wrapper section nested*/
 .nested {
     display: grid;
     grid-gap: 2.5em;
@@ -41,18 +187,11 @@ image{
     border-left: #ffffff 2px double;
     padding-left: 6px;
 }
-.topText {
-    animation: slideInfromBottom 1s ease-in;
-}
-.topText:hover a{
-    transform: scale(.98);
-}
-.wrapper {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
-}
+
+
+
+
+     /* Boxes */
 .box-1{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -122,37 +261,7 @@ image{
     color: #FFBA00;
 }
 
-     /*Top Navigation Bar*/
-.navbar{
-    border-top: 2px #FFBA00 solid;
-    border-bottom: 2px #FFBA00 solid;
-    padding: 10px;
-    height: 45px;
-}
-.navbar ul{
-    list-style-type: none;
-    display: flex;
-}
-.navbar a{
-    text-decoration: none;
-    color: #FFBA00;    
-}
-.navbar a{
-    padding: 5px;
-    margin: 0 10px;
-    font-size: 18px;
-}
-.navbar a:hover {
-    border-bottom: 2px #FFBA00 solid;
-}
-.navcontainer{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-}
+
 
 #main-footer{
     color: #FFBA00;
@@ -160,7 +269,7 @@ image{
     font-size: 13px;
 }
 
-     /*Bottom Navigation Bar*/
+     /* Bottom Navigation Bar */
 .bottomnavbar{
     border-bottom: 2px #FFBA00 solid;
     padding: 10px;
@@ -188,41 +297,6 @@ image{
     font-size: 14px;
 }
 
-
-     /* Showcase */
-#showcase{
-    background-image: url('../images/Campus.jpg');
-    background-position: center;
-    min-height: 250px;
-    margin-bottom: 30px;
-    text-align: center;
-    position: relative;
-    border-bottom: 1px #FFBA00 solid;
-}
-#showcase h1{
-    color: #ffffff;
-    font-size: 30px;
-    text-shadow: -1.5px 1.5px 0 #FFBA00;
-    line-height: 1.6em;
-    padding-top: 40px;
-}
-#showcase h2{
-    color: #ffffff;
-    font-size: 30px;
-    text-shadow: -1.5px 1.5px 0 #FFBA00;
-    line-height: 1.6em;
-    padding-top: 10px;
-}
-#showcase h3{
-    color: #ffffff;
-    font-size: 20px;
-    text-shadow: -1px 1px 0 #FFBA00;
-    line-height: 1.6em;
-    padding-top: 10px
-}
-#showcasetext {
-    animation: slideInfromLeft 1s ease-in;
-}
 
      /* Animation */
 @keyframes slideInfromLeft {
