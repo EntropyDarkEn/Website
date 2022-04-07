@@ -129,8 +129,38 @@ image{
     line-height: 1.6em;
     padding-top: 40px;
 }
-
-
+#showcase-exco{
+    background-image: url('../images/pieces.jpg');
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px #FFBA00 solid;
+}
+#showcase-exco h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 40px;
+}
+#showcase-contact{
+    background-image: url('../images/clubmeeting.jpg');
+    background-position: center;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px #FFBA00 solid;
+}
+#showcase-contact h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1.5px 1.5px 0 #FFBA00;
+    line-height: 1.6em;
+    padding-top: 40px;
+}
 
 
 
